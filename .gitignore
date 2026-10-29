@@ -1,0 +1,30 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.env
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Model weights
+*.pt
+*.pth
+
+# Office & PDF Documents
+*.docx
+*.pdf
+
+# Large raw datasets
+data/*.csv
+!data/README.md
